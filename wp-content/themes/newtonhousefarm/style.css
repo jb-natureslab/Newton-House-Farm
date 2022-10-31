@@ -1456,7 +1456,7 @@ button.menu-toggle{
 
 .blog main#primary .posts{
 	display:grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-gap:2rem;
 	padding:3rem 0;
 	clear:both;
@@ -1467,12 +1467,14 @@ button.menu-toggle{
 
 
 .blog main#primary > header{
-	grid-column: 1 / 3;
+
 }
 
 .blog main#primary article{
-	background:#f4f7e9;
 	padding:0 1rem 0;
+	max-width:768px;
+	margin:0 auto;
+	margin-bottom:200px;
 }
 
 .blog main#primary article h2{

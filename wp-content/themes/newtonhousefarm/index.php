@@ -23,7 +23,7 @@ get_header();
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<section class="hero small">
-			<img width="1920" height="1280" src="/wp-content/uploads/2022/10/AdobeStock_1612965591.jpeg" class="attachment-1920x1920 size-1920x1920" alt="" loading="lazy" srcset="/wp-content/uploads/2022/10/AdobeStock_1612965591.jpeg 1920w, /wp-content/uploads/2022/10/AdobeStock_1612965591-300x200.jpeg 300w, /wp-content/uploads/2022/10/AdobeStock_1612965591-1024x683.jpeg 1024w, /wp-content/uploads/2022/10/AdobeStock_1612965591-768x512.jpeg 768w, /wp-content/uploads/2022/10/AdobeStock_1612965591-1536x1024.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />			<div>
+			<img width="1920" height="1280" src="/wp-content/uploads/2022/10/AdobeStock_1612965591.jpeg" class="attachment-1920x1920 size-1920x1920" alt="" loading="lazy" srcset="http://newtonhouse:8888/wp-content/uploads/2022/10/AdobeStock_1612965591.jpeg 1920w, http://newtonhouse:8888/wp-content/uploads/2022/10/AdobeStock_1612965591-300x200.jpeg 300w, http://newtonhouse:8888/wp-content/uploads/2022/10/AdobeStock_1612965591-1024x683.jpeg 1024w, http://newtonhouse:8888/wp-content/uploads/2022/10/AdobeStock_1612965591-768x512.jpeg 768w, http://newtonhouse:8888/wp-content/uploads/2022/10/AdobeStock_1612965591-1536x1024.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />			<div>
 				<h1>Blog</h1>
 			</div>
 		</section>
@@ -33,7 +33,7 @@ get_header();
 
 			/* Start the Loop */
 			while ( have_posts() ) :
-				the_excerpt();
+				the_post();
 
 				/*
 				 * Include the Post-Type-specific template for the content.
