@@ -1613,7 +1613,7 @@ span.byline {
 }
 
 
-.wp-content div{
+.wp-content > div{
 	padding:0 1rem;
 }
 
