@@ -1,0 +1,55 @@
+<?php /* Template Name: Contact */ ?>
+<?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package newtonhousefarm
+ */
+
+get_header();
+?>
+
+	<main id="primary">
+		
+		<section class="hero small">
+			<?php
+				$image = get_field('hero_small_background_image');
+				if( $image ) {
+				    echo wp_get_attachment_image( $image, array('1920', '1920') );
+				}
+			?>
+			<div>
+				<h1><?php the_field('hero_small_main_heading');?></h1>
+			</div>
+		</section>
+
+		<section class="wp-content">
+			<div>
+			<?php
+			while ( have_posts() ) :
+				the_post();
+	
+				get_template_part( 'template-parts/content', 'page' );
+	
+				// If comments are open or we have at least one comment, load up the comment template.
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+	
+			endwhile; // End of the loop.
+			?>
+			</div>
+		</section>
+
+	</main>
+
+<?php
+//get_sidebar();
+get_footer();
