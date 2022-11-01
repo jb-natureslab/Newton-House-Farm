@@ -1481,7 +1481,7 @@ button.menu-toggle{
 }
 
 .blog main#primary article{
-	padding:0 1rem 0;
+	padding:0;
 	max-width:768px;
 	margin:0 auto;
 	margin-bottom:200px;
