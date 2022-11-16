@@ -30,9 +30,9 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-	<header class="background_green">
+	<header class="background_green grunge shadow">
 		<div>
-			<a class="button" href="/book-online/">Book Online</a>
+			<p><a href="/">Newton House Farm</a></p>
 			<nav id="site-navigation" class="main-navigation">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'newtonhousefarm' ); ?></button>
 				<?php
@@ -44,6 +44,8 @@
 				);
 				?>
 			</nav> 
-			<a class="instagram" href="https://instagram.com/newtonhousefarm"><i class="fab fa-instagram"></i></a>
+			<div class="social">
+				<a class="instagram" href="https://instagram.com/newtonhousefarm"><i class="fab fa-instagram"></i></a>
+			</div>
 		</div>
 	</header>

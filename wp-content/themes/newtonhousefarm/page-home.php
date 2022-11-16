@@ -61,7 +61,7 @@ get_header();
 			</div>
 		</section>
 		
-		<section class="background_yellow">
+		<section class="background_yellow grunge shadow">
 			<div class="cta">
 				<h2><?php the_field('cta_heading');?></h2>
 				<a class="button" href="<?php the_field('cta_button_url');?>"><?php the_field('cta_button_text');?></a>
