@@ -1780,3 +1780,7 @@ span.byline {
 .wpbs-main-wrapper .wpbs-form-container .wpbs-form-field.wpbs-form-field-payment_method .wpbs-payment-method-description{
 	display:none;
 }
+
+.wpbs-total-price.wpbs-total-price-1-8{
+	font-size:1rem;
+}
