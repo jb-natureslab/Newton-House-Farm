@@ -1375,7 +1375,7 @@ button.menu-toggle{
 .cta{
 	display:grid;
 	grid-template-columns: 4fr 1fr 1fr;
-	grid-template-columns: 2fr;
+	grid-column-gap:1rem;
 }
 
 .cta h2{
