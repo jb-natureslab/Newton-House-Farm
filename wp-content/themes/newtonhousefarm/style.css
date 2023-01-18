@@ -1375,6 +1375,7 @@ button.menu-toggle{
 .cta{
 	display:grid;
 	grid-template-columns: 4fr 1fr 1fr;
+	grid-template-columns: 2fr;
 }
 
 .cta h2{
@@ -1687,6 +1688,7 @@ article footer{
 	.cta{
 		grid-template-columns: 1fr;
 		text-align: center;
+		grid-row-gap:1rem;
 	}
 	
 	.cta h2{
