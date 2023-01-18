@@ -65,6 +65,7 @@ get_header();
 			<div class="cta">
 				<h2><?php the_field('cta_heading');?></h2>
 				<a class="button" href="<?php the_field('cta_button_url');?>"><?php the_field('cta_button_text');?></a>
+				<a class="button" href="<?php the_field('cta_button_url_2');?>"><?php the_field('cta_button_text_2');?></a>
 			</div>
 		</section>
 		
