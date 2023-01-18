@@ -1781,6 +1781,8 @@ span.byline {
 	display:none;
 }
 
-.wpbs-total-price.wpbs-total-price-1-8{
+.wpbs-total-price.wpbs-total-price-1-8,
+.wpbs-total-price.wpbs-total-price-3-8,
+.wpbs-total-price.wpbs-total-price-2-10{
 	font-size:1rem;
 }
