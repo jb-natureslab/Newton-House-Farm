@@ -860,6 +860,12 @@ textarea {
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
 	display: flex;
+	clear:both;
+	width:100%;
+	float:left;
+	margin-top:4rem;
+	padding:4rem 0;
+	border-top:1px solid #ccc;
 }
 
 .comment-navigation .nav-previous,
